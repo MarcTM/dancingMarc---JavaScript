@@ -1,3 +1,6 @@
+import {docReady} from './core/core.js';
+import './controlers/stopball.js'
+
 let obj = {};
 
 docReady(
@@ -43,3 +46,5 @@ docReady(
         return start();
     })()
 );
+
+export {obj};

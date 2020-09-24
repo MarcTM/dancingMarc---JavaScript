@@ -1,7 +1,9 @@
 function docReady(fn) {
     if (document.readyState === "complete" || document.readyState === "interactive") {
-        fn();
+        fn;
     } else {
         document.addEventListener("DOMContentLoaded", fn);
     }
-} 
+}
+
+export {docReady};

@@ -1,4 +1,4 @@
-//import {start} from "../main.js";
+import {obj} from '../main.js';
 
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
